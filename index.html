@@ -9,7 +9,7 @@
   gtag('config', 'G-WY8RJV54BX');
 </script>
     <meta charset="UTF-8">
-    <title>Super Nintendo (SNES) ROMs | Travis_SNES</title>
+    <title>Refugio Retro Gaming | Tus Sistemas Clásicos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/travissnescontacto-svg/Web-Renovada/main/mando.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -29,15 +29,24 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.9);
             display: flex; flex-direction: column; align-items: center;
         }
-        .mando-img { width: 150px; filter: drop-shadow(0 0 15px rgba(255,255,255,0.2)); margin-bottom: 10px; }
         h1 { 
             margin: 0; font-size: clamp(1.8em, 5vw, 3.5em); text-transform: uppercase;
-            font-weight: 900; background: linear-gradient(to bottom, #ffffff 40%, #cccccc 100%);
+            font-weight: 900; 
+            /* Nuevo color degradado estilo neón/arcade */
+            background: linear-gradient(to bottom, #ff3333 0%, #ffcc00 100%);
             -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            filter: drop-shadow(4px 4px 0px #d32f2f); font-style: italic; line-height: 1;
+            filter: drop-shadow(3px 3px 0px #000000); font-style: italic; line-height: 1.1;
+        }
+        .header-slogan {
+            font-size: clamp(0.95em, 2vw, 1.3em);
+            color: #ffffff;
+            margin-top: 15px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
         .firma-container {
-            display: flex; align-items: center; justify-content: center; gap: 15px; margin-top: 15px;
+            display: flex; align-items: center; justify-content: center; gap: 15px; margin-top: 25px;
             background: rgba(0,0,0,0.85); padding: 8px 25px; border-radius: 50px; 
             border: 1px solid rgba(211, 47, 47, 0.6); backdrop-filter: blur(5px);
         }
@@ -81,8 +90,9 @@
 <body>
 
 <header>
-    <img src="https://raw.githubusercontent.com/travissnescontacto-svg/Web-Renovada/main/mando.png" class="mando-img">
-    <h1>Super Nintendo (SNES) ROMs</h1>
+    <h1>REFUGIO RETRO GAMING</h1>
+    <div class="header-slogan">Tus sistemas clásicos y listos para jugar.</div>
+    
     <div class="firma-container">
         <span class="user-name">by Travis_SNES</span>
         <div class="redes">
